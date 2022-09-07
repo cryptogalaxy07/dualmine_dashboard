@@ -4,6 +4,7 @@ export const Routes = {
     Presentation: { path: "/" },
     DashboardOverview: { path: "/overview" },
     Investment: { path: "/investment/:id" },
+    Calculator: {path: "/calculator"},
     OrderOverview: { path: "/orderoverview" },
     Profile: { path: "/profile" },
     SpecialOffer: { path: "/specialoffer" },

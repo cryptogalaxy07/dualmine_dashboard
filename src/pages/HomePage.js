@@ -8,6 +8,7 @@ import Upgrade from "./Upgrade";
 import DashboardOverview from "./dashboard/DashboardOverview";
 import Investment from "./dashboard/Investments";
 import OrderOverview from "./dashboard/OrderOverview";
+import Calculator from "./dashboard/Calculator";
 import Profile from "./dashboard/Profile";
 import Transactions from "./Transactions";
 import Settings from "./Settings";
@@ -91,6 +92,7 @@ export default () => (
 
     {/* pages */}
     <RouteWithSidebar path={Routes.DashboardOverview.path} component={DashboardOverview} />
+    <RouteWithSidebar path={Routes.Calculator.path} component={Calculator} />
     <RouteWithSidebar path={Routes.Investment.path} component={Investment} />
     <RouteWithSidebar path={Routes.OrderOverview.path} component={OrderOverview} />
     <RouteWithSidebar path={Routes.Profile.path} component={Profile} />
